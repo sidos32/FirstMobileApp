@@ -30,8 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
         adView.loadAd(adRequest);
 
-        while (true){
-
             //InterstitialAd
             Button showAdButton = (Button)findViewById(R.id.adButton);
             showAdButton.setOnClickListener(new View.OnClickListener() {
@@ -47,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
             AdRequest request = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                     .build();
             mInterstitial.loadAd(request);
-        }
 
     }
 }
