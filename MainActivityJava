@@ -47,6 +47,6 @@ public class MainActivity extends AppCompatActivity {
             mInterstitial.loadAd(request);
             
             
-            //TODO:Implement rewarded add and delete InterstitialAd
+            //TODO:Implement rewarded ad and delete InterstitialAd
     }
 }
