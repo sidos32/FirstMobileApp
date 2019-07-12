@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
             AdRequest request = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                     .build();
             mInterstitial.loadAd(request);
-
+            
+            
+            //TODO:Implement rewarded add and delete InterstitialAd
     }
 }
